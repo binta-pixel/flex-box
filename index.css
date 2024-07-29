@@ -1,0 +1,25 @@
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+div{
+    height: 100px;
+    width: 400px;
+    font-size: 4em;
+    text-align: center;
+}
+section{
+   width: 400px;
+   height: 100px;
+   margin: 30px auto;
+   display: flex;
+   gap: 50px;
+   /* display: flex; */
+   /* flex-direction: column; */
+}

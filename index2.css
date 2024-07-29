@@ -1,0 +1,23 @@
+.info{
+    /* display: flow-root; */
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    background-color: #ddebf8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-left: 10px;
+    border-bottom: 10px outset #d8cefe;
+}
+.tof{
+    background-color: #d8cefe;
+    margin-top: 20px;
+}
+section{
+    display: flex;
+    /* gap: 40px; */
+}
+.name{
+    margin: auto;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color:rosybrown ;
+
+}
+.info{
+    display: flex box;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    /* padding-right: flex; */
+    /* margin-bottom: 20px; */
+    background-color: white;
+
+}
+input{
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    /* border: none; */
+    border-radius: 5px;
+
+}
+.bouton{
+    background-color: black; 
+}
+.tof{
+    margin-top: 30px;
+    background-color: #d8cefe;
+}
+::-webkit-input-placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}

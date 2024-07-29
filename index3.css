@@ -1,0 +1,155 @@
+
+ body{
+    margin: 0;
+    padding: 0;
+ }
+ .face{
+    color: blue;
+ }
+ .twit{
+    color: blue;
+ }
+ .insta{
+    color: goldenrod;
+ }
+ .google{
+    color: blue;
+ }
+ .entete1{
+    background-color:#0DDC8C ;
+    flex-direction: row;
+    height: 30px;
+    padding: 10px 50px ;
+    /* padding-top: 15px; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    margin:0;
+    
+ }
+ .text{
+    color: white;
+ }
+ .image{
+   
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    float: left;
+ }
+ .section2{
+    float: right;
+    gap: 20px;
+    flex-direction: row;
+    display: flex;
+ }
+ button{
+    background-color: white;
+    text-decoration: none;
+    border: 1px;
+    margin-right: 50px;
+    font-size: 1em;
+
+ }
+ .liens{
+    text-decoration: none;
+    color: #0DDC8C;
+ }
+ .entete2{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    /* padding-top: 10px; */
+    padding-left: 30px;
+    align-items: center;
+ }
+ .logo{
+    float: left;
+ }
+ .section3{
+    gap: 15px;
+    display: flex;
+    padding-left: 500px;
+    padding-top: 10px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .section4{
+    float: right;
+    padding-right: 20px;
+    margin-left: 30px;
+ }
+.corps{
+    /* background: linear-gradient(#203347,#131e2b8e),url('image1.jpg'); */
+    background: linear-gradient(rgba(44, 59, 75, 5), #0b1a2c8e),
+    url("image1.jpg");
+    height: 500px;
+    text-align: center;
+   
+}
+.centre{
+    width: 600px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: black; */
+    /* padding-left: 20px; */
+    /* margin-top: 20px; */
+    /* margin: 50%; */
+    color: white;
+}
+.bouton1{
+    height: 45px;
+    border-radius: 10px;
+    background-color: #0DDC8C;
+    color: white;
+    margin-top: 100px;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9em;
+    border-radius: 20px;
+}
+section{
+    display: flex;
+    gap: .2em;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 10px;
+
+
+}
+    
+#un{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 1em;
+}
+#deux{
+    width: 150px;
+    height: 40px;
+    background-color: #0DDC8C;
+    text-align: center;
+    padding: 10px 20px;
+    /* color: white; */
+}
+#a{
+    color: white;
+}
+
+@media screen and (max-width: 100% ) {
+   
+    }
+    
